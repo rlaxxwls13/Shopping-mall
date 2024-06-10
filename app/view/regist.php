@@ -12,7 +12,7 @@
     <div class="wrap" id="regist_wrap">
         <div>
             <h1>Regist Form</h1>
-            <form action="regist_ok.php" method="post" name="regiform" id="regist_form" class="form"
+            <form action="../controller/regist_ok.php" method="post" name="regiform" id="regist_form" class="form"
                 onsubmit="return sendit()">
                 <p><input type="text" name="userid" id="userid" placeholder="ID"><input type="button" id="checkIdBtn"
                         value="check" onclick="checkId()"></p>
