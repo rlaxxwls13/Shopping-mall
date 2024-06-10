@@ -18,7 +18,7 @@
                 <p><input type="password" name="new_pw" placeholder="New Password"></p>
                 <p><input type="password" name="new_pw_ch" placeholder="New Password Check"></p>
                 <p><input type="submit" value="Change Password" class="changepw_btn form_btn"></p>
-                <p class="pre_btn">Are you join? <a href="index.php">Login.</a></p>
+                <p class="pre_btn">Are you join? <a href="login.php">Login.</a></p>
             </form>
         </div>
     </div>
