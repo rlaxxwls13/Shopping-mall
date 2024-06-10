@@ -14,11 +14,13 @@
             <h1>Regist Form</h1>
             <form action="regist_ok.php" method="post" name="regiform" id="regist_form" class="form"
                 onsubmit="return sendit()">
-                <p><input type="text" name="userid" id="userid" placeholder="ID"></p>
+                <p><input type="text" name="userid" id="userid" placeholder="ID"><input type="button" id="checkIdBtn"
+                        value="check" onclick="checkId()"></p>
+                <p id="result">&nbsp;</p>
                 <p><input type="password" name="userpw" id="userpw" placeholder="Password"></p>
                 <p><input type="password" name="userpw_ch" id="userpw_ch" placeholder="Password Check"></p>
                 <p><input type="text" name="username" id="username" placeholder="Name"></p>
-                <p><input type="text" name="userphone" id="userphone" placeholder="Phone Number 000-0000-0000"></p>
+                <p><input type="text" name="userphone" id="userphone" placeholder="Phone Number"></p>
                 <p><input type="text" name="useremail" id="useremail" placeholder="E-mail"></p>
                 <p class="hobbystr">
                     <label for="drive">Drive <input type="checkbox" name="hobby[]" id="drive" value="Drive"></label>
@@ -33,7 +35,7 @@
             </form>
         </div>
     </div>
-    <script src="./lib/js/regist.js"></script>
+    <script src="../../lib/js/regist.js"></script>
 </body>
 
 </html>
