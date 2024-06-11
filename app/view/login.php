@@ -12,7 +12,8 @@
     <div class="wrap" id="login_wrap">
         <div>
             <h1>Login Form</h1>
-            <form class="form" action="login_ok.php" method="post" id="login_form">
+            <form class="form" action="../controller/login_ok.php" method="post" id="login_form"
+                onsubmit="return sendit()">
                 <p><input type="text" name="userid" id="userid" placeholder="ID"></p>
                 <p><input type="password" name="userpw" id="userpw" placeholder="Password"></p>
                 <p class="forgetpw"><a href="changepw.php">Forget Password?</a></p>
@@ -21,6 +22,7 @@
             <p class="regist_btn">Not a member? &nbsp;<a href="regist.php">Sign Up</a></p>
         </div>
     </div>
+    <script src="../../lib/js/login.js"></script>
 </body>
 
 </html>

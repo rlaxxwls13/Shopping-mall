@@ -12,11 +12,10 @@
     $result = mysqli_query($conn, $sql);
 
     if($result) {
+        $conn->close();
         header("Location: ../view/main.php");
         exit();
     } else {
         echo "회원가입에 실패했습니다: " . mysqli_error($conn);
     }
-    
-    $conn->close();
 ?>
