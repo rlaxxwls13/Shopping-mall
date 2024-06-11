@@ -11,6 +11,7 @@
 #### 2) 회원가입 폼
 <img width="1280" alt="image" src="https://github.com/rlaxxwls13/my-website/assets/101396454/90a83d5f-09b7-4198-8ffd-d52d3a904817">
 
+- 아이디 입력 후 중복 검사를 완료해야 회원가입 가능
 - 입력사항이 형식에 일치하지 않으면 회원가입 거부
 
 #### 3) 메인 페이지
