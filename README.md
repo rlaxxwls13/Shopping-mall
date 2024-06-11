@@ -1,5 +1,5 @@
-# my-website
-## PHP + MySQL을 이용한 웹사이트
+# Shopping mall website
+## PHP + MySQL을 이용한 쇼핑몰 웹사이트
 
 ### 1. 로그인/회원가입 기능
 
